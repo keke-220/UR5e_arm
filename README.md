@@ -55,6 +55,11 @@ And in a new terminal:
 rosrun robotiq_2f_gripper_control Robotiq2FGripperSimpleController.py 
 ```
 
+To get the video from wrist camera:
+```
+ffplay /dev/video1
+```
+
 Once you are done working, please turn off the arm.
 
 
